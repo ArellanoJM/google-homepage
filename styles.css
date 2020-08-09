@@ -12,9 +12,29 @@ html {
 
 .search-bar {
     width: 500px;
+    height: 2em;
     margin: 1em 1em;
 }
 
 .search-button {
     margin: 1em 0.5em;
+    min-height: 2em;
+}
+
+ul {
+    list-style-type: none;  /* Removes list markers*/
+    margin: 0;              /* Remove margin and padding default values*/
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 14px 8px;
+    text-align: center;
+    text-decoration: none;
 }
