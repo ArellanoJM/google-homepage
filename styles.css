@@ -1,0 +1,15 @@
+html {
+    text-align: center;
+}
+
+.logo {
+    margin: 48px;
+}
+
+.search-bar {
+    width: 500px;
+}
+
+.search-button {
+    margin: 1em 0.5em;
+}
