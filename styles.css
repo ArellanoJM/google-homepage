@@ -21,15 +21,29 @@ html {
     min-height: 2em;
 }
 
-ul {
+.navbar, .footer {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+}
+
+.footer {
+    bottom: 0;
+    background-color: darkgrey;
+    width: 100%;
+}
+
+.navbar ul, .footer ul {
     list-style-type: none;  /* Removes list markers*/
     margin: 0;              /* Remove margin and padding default values*/
     padding: 0;
     overflow: hidden;
-}
-
-li {
-    float: right;
+    display: inline-flex;   /* keeps items horizontally */
 }
 
 li a {
@@ -37,4 +51,8 @@ li a {
     padding: 14px 8px;
     text-align: center;
     text-decoration: none;
+}
+
+li {
+    padding: 0px 8px 0px 0px; /* Add small margin to right side of screen */
 }
